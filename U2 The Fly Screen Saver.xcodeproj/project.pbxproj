@@ -10,6 +10,7 @@
 		D8D471192A102EA000DAABAD /* U2ScreensaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */; };
 		D8D4711C2A103D8100DAABAD /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4711B2A103D8100DAABAD /* thumbnail.png */; };
 		D8D4711E2A10402200DAABAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D4711D2A10402200DAABAD /* Assets.xcassets */; };
+		D8D471202A10448B00DAABAD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D8D4711F2A10448B00DAABAD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2ScreensaverView.swift; sourceTree = "<group>"; };
 		D8D4711B2A103D8100DAABAD /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = "U2 The Fly Screen Saver/thumbnail.png"; sourceTree = "<group>"; };
 		D8D4711D2A10402200DAABAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D4711F2A10448B00DAABAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 		D8D471022A102E4B00DAABAD = {
 			isa = PBXGroup;
 			children = (
+				D8D4711F2A10448B00DAABAD /* README.md */,
 				D8D4711D2A10402200DAABAD /* Assets.xcassets */,
 				D8D4711A2A103D5000DAABAD /* Supporting FIles */,
 				D8D4710E2A102E4B00DAABAD /* U2 The Fly Screen Saver */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D471202A10448B00DAABAD /* README.md in Resources */,
 				D8D4711E2A10402200DAABAD /* Assets.xcassets in Resources */,
 				D8D4711C2A103D8100DAABAD /* thumbnail.png in Resources */,
 			);
