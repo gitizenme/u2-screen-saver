@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8D471102A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D4710F2A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.h */; };
-		D8D471122A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D471112A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.m */; };
+		D8D471192A102EA000DAABAD /* U2ScreensaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */; };
+		D8D4711C2A103D8100DAABAD /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4711B2A103D8100DAABAD /* thumbnail.png */; };
+		D8D4711E2A10402200DAABAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D4711D2A10402200DAABAD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8D4710C2A102E4B00DAABAD /* U2 The Fly Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U2 The Fly Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D4710F2A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = U2_The_Fly_Screen_SaverView.h; sourceTree = "<group>"; };
-		D8D471112A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U2_The_Fly_Screen_SaverView.m; sourceTree = "<group>"; };
+		D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2ScreensaverView.swift; sourceTree = "<group>"; };
+		D8D4711B2A103D8100DAABAD /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = "U2 The Fly Screen Saver/thumbnail.png"; sourceTree = "<group>"; };
+		D8D4711D2A10402200DAABAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,8 @@
 		D8D471022A102E4B00DAABAD = {
 			isa = PBXGroup;
 			children = (
+				D8D4711D2A10402200DAABAD /* Assets.xcassets */,
+				D8D4711A2A103D5000DAABAD /* Supporting FIles */,
 				D8D4710E2A102E4B00DAABAD /* U2 The Fly Screen Saver */,
 				D8D4710D2A102E4B00DAABAD /* Products */,
 			);
@@ -47,10 +51,17 @@
 		D8D4710E2A102E4B00DAABAD /* U2 The Fly Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
-				D8D4710F2A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.h */,
-				D8D471112A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.m */,
+				D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */,
 			);
 			path = "U2 The Fly Screen Saver";
+			sourceTree = "<group>";
+		};
+		D8D4711A2A103D5000DAABAD /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				D8D4711B2A103D8100DAABAD /* thumbnail.png */,
+			);
+			name = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,7 +71,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D471102A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,7 @@
 				TargetAttributes = {
 					D8D4710B2A102E4B00DAABAD = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -122,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D4711E2A10402200DAABAD /* Assets.xcassets in Resources */,
+				D8D4711C2A103D8100DAABAD /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D471122A102E4B00DAABAD /* U2_The_Fly_Screen_SaverView.m in Sources */,
+				D8D471192A102EA000DAABAD /* U2ScreensaverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +264,7 @@
 		D8D471162A102E4B00DAABAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -263,6 +277,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ws.chavez.U2-The-Fly-Screen-Saver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -270,6 +286,7 @@
 		D8D471172A102E4B00DAABAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -282,6 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ws.chavez.U2-The-Fly-Screen-Saver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
