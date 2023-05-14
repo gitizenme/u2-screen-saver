@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly Screen Saver" */;
+			buildConfigurationList = D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly Screen Saver" */ = {
+		D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8D471132A102E4B00DAABAD /* Debug */,
