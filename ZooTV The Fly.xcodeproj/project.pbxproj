@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8D4710C2A102E4B00DAABAD /* U2 The Fly Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U2 The Fly Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D4710C2A102E4B00DAABAD /* ZooTV The Fly.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZooTV The Fly.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D471182A102EA000DAABAD /* U2ScreensaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2ScreensaverView.swift; sourceTree = "<group>"; };
 		D8D4711B2A103D8100DAABAD /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = "U2 The Fly Screen Saver/thumbnail.png"; sourceTree = "<group>"; };
 		D8D4711D2A10402200DAABAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		D8D4710D2A102E4B00DAABAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8D4710C2A102E4B00DAABAD /* U2 The Fly Screen Saver.saver */,
+				D8D4710C2A102E4B00DAABAD /* ZooTV The Fly.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +80,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D8D4710B2A102E4B00DAABAD /* U2 The Fly Screen Saver */ = {
+		D8D4710B2A102E4B00DAABAD /* ZooTV The Fly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8D471152A102E4B00DAABAD /* Build configuration list for PBXNativeTarget "U2 The Fly Screen Saver" */;
+			buildConfigurationList = D8D471152A102E4B00DAABAD /* Build configuration list for PBXNativeTarget "ZooTV The Fly" */;
 			buildPhases = (
 				D8D471072A102E4B00DAABAD /* Headers */,
 				D8D471082A102E4B00DAABAD /* Sources */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "U2 The Fly Screen Saver";
+			name = "ZooTV The Fly";
 			productName = "U2 The Fly Screen Saver";
-			productReference = D8D4710C2A102E4B00DAABAD /* U2 The Fly Screen Saver.saver */;
+			productReference = D8D4710C2A102E4B00DAABAD /* ZooTV The Fly.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly" */;
+			buildConfigurationList = D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "ZooTV The Fly" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8D4710B2A102E4B00DAABAD /* U2 The Fly Screen Saver */,
+				D8D4710B2A102E4B00DAABAD /* ZooTV The Fly */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "U2 The Fly" */ = {
+		D8D471062A102E4B00DAABAD /* Build configuration list for PBXProject "ZooTV The Fly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8D471132A102E4B00DAABAD /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8D471152A102E4B00DAABAD /* Build configuration list for PBXNativeTarget "U2 The Fly Screen Saver" */ = {
+		D8D471152A102E4B00DAABAD /* Build configuration list for PBXNativeTarget "ZooTV The Fly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8D471162A102E4B00DAABAD /* Debug */,
