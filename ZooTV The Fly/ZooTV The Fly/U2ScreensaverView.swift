@@ -258,6 +258,7 @@ class SimpleScreensaverView: ScreenSaverView {
     }
     
     func configureScreenSaver() {
+        
         // Set the background color from configuration
         if let backgroundColor = configuration.backgroundColor {
             self.wantsLayer = true
@@ -283,8 +284,8 @@ class SimpleScreensaverView: ScreenSaverView {
         // Get the current word to display
         let word = words[currentWordIndex]
         
-        let screenWidth = bounds.size.width
-        let screenHeight = bounds.size.height
+        let screenWidth = rect.size.width
+        let screenHeight = rect.size.height
         
         let fontSize = min(screenWidth, screenHeight) * 0.1 // Adjust the scaling factor as needed
         let paragraphStyle = NSMutableParagraphStyle()
