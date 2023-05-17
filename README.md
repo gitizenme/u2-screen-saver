@@ -4,7 +4,7 @@ This is for Apple macOS only... I don't have the cycles to work on a Windows ver
 
 Installation:
 
-1. Download the [`U2.The.Fly.Screen.Saver.saver.zip`](https://github.com/gitizenme/u2-screen-saver/releases/download/1.0.1/U2.The.Fly.Screen.Saver.saver.zip) file to your computer
+1. Download the [`U2.The.Fly.Screen.Saver.saver.zip`](https://github.com/gitizenme/u2-screen-saver/releases/download/1.0.2/U2.The.Fly.Screen.Saver.saver.zip) file to your computer
 2. Double-click on the `.zip` file
 3. Double-click on the `.saver` file
 4. Clock on install:
